@@ -1,0 +1,186 @@
+.clearfix {
+  *zoom: 1px;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+body{
+    padding: 0;
+    background: #f5f5dd;
+    margin: 0 auto;
+}
+header {
+    border-bottom: solid 1px #CCCCCC;
+    background: #FFFFFF;
+} 
+.menu,.menu_ {
+    width: 950px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.menu form {
+    float: right;
+}
+h1 {
+    margin: 0;
+    font-size: 16px;
+}
+header ul  {
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+header ul li,footer ul li {
+    list-style: none;
+}
+header ul a {
+    text-decoration: none;
+    width: 189px;
+    text-align: center;
+    float: left;
+    border-left: solid 1px #CCCCCC;
+    color: #000000;
+}
+header ul li:first-child a,footer ul li:first-child a {
+     border-left: 0;
+}
+#main,.view {
+    width: 960px;
+    height: 330px;
+    margin: 0 auto;
+}
+.main_ {
+    width: 960px;
+    height: 1175px;
+    margin: 0 auto;
+}
+nav {
+    width: 170px;
+    float: left;
+}
+.nav,.nav_ {
+    margin-top: 15px;
+    background: #FFFFFF;
+    padding: 5px;
+}
+nav h2, article h2 {
+    font-size: 16px;
+    background: #00CC00;
+    border-radius: 1em;
+    color: #FFFFFF;
+    background-image: url(dish.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+nav h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+nav ul  {
+    padding: 5px;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    font-weight: bold;
+    padding: 5px;
+}
+nav ul a {
+    display: block;
+    border-bottom: dotted 1px #000000;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5px 20px;
+}
+nav ul li:last-child a {
+    border-bottom: 0;
+}
+article {
+    width: 595px;
+    float: left;
+    margin: 15px 10px;
+}
+article h2 {
+    margin: 5px;
+    padding: 5px 40px;
+}
+article h3 {
+    color: #800000;
+}
+.recipe,#washoku,#osusume {
+    padding: 5px;
+    background: #FFFFFF;
+}
+article table {
+    margin: 0 auto;
+}
+article td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    padding:15px;
+}
+article td p {
+    margin: 0;
+}
+#washoku,#osusume {
+    margin: 15px 0;
+}
+#washoku img,#osusume img {
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box,.box_,.box- {
+    float: left;
+    width: 330px;
+    font-size: 15px;
+}
+p.indent, p.indent_,p.indent- {
+    text-indent: 1em;
+}
+.box a,.box_ a,.box- a{
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #fc8833;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-position: 230px;
+}
+aside { 
+    width: 155px;
+    float: left;
+}
+.aside,.aside_,aside img,aside_ img {
+    margin: 15px 0;
+    display: block;
+    height: 351px;
+}
+footer {
+    border-top: solid 1px #CCCCCC;
+    background: #FFFFFF;
+}
+footer ul {
+    padding-left: 130px;
+    margin: 0;
+}
+footer ul a {
+    text-decoration: none;
+    font-size: 12px;
+    width: 180px;
+    text-align: center;
+    float: left;
+    border-left: solid 1px #CCCCCC;
+    color: #000000;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+}
